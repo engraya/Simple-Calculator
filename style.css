@@ -7,30 +7,30 @@
 
 body {
     min-height: 100vh;
-    background: #55556d;
+    background: #05697a;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 
 .calculator {
-    width: 420px;
+    width: 400px;
     height: 650px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
-    background: #22252D;
+    border-radius: 10px;
+    background: #7b8cb9;
     overflow: hidden;
 
 }
 
 form input {
     width: 100%;
-    height: 165px;
+    height: 150px;
     border: none;
     border-radius: 12px;
     font-size: 3rem;
-    color: beige;
-    background: dimgrey;
+    color: rgb(24, 24, 20);
+    background: rgb(245, 233, 233);
     text-align: right;
     pointer-events: none;
 
@@ -40,7 +40,7 @@ form input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 16px;
 
 }
 
@@ -48,10 +48,10 @@ button {
     flex: 0 0 22%;
     margin: 5px 0;
     border: 1px solid #000;
-    width: 63px;
-    height: 55px;
-    font-size: 22px;
-    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
 
@@ -68,11 +68,11 @@ button {
 } 
 
 .btn-equal {
-    background: green;
+    background: rgb(16, 201, 16);
 }
 
 .btn-clear {
-    background: darkred;
+    background: rgb(145, 33, 33);
 }
 
 .btn-delete {
